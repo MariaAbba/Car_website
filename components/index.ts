@@ -1,7 +1,6 @@
-import Hero from './Hero'
-import CustomButton from './CustomButton'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Hero from '../components/Hero'
+import CustomButton from '../components/CustomButton'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
-export { Hero,
-   CustomButton, Navbar, Footer}
+export { Hero, CustomButton, Navbar, Footer }
