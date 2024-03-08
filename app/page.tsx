@@ -1,6 +1,5 @@
-import { Hero } from '@/components'
-import CustomFilter from '@/components/CustomFilter'
-import SearchBar from '@/components/SearchBar'
+import { Hero, CustomFilter, SearchBar } from '@/components'
+
 import Image from 'next/image'
 
 export default function Home() {
