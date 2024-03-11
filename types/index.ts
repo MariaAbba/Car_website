@@ -3,15 +3,18 @@ import { MouseEventHandler } from 'react'
 export interface CustomButtonProps {
   title: string
   containerStyles?: string
-  btnType?: 'button' | 'submit'
   handledClick?: MouseEventHandler<HTMLButtonElement>
+  btnType?: 'button' | 'submit'
+  textStyles?: string
+  rightIcon?:string
+  isDisabled?:'boolean'
 }
 export interface SearchManufacturerProps {
   manufacturer: string
   setManufacturer: (manufacturer: string) => void
 }
 
-export interface CarCardProps {
+export interface CarProps {
   city_mpg: number;
   class: string;
   combination_mpg: number;
