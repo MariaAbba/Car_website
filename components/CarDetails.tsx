@@ -1,3 +1,5 @@
+'use client'
+
 import React, { Fragment } from 'react'
 import Image from 'next/image'
 
@@ -17,7 +19,7 @@ const CardDetails = ({ isOpen, closeModal, car }: carDetailsProps) => {
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
           <Transition.Child>
-            </div>
+            <div className="fixed inset-0 bg-black bg-opacity-25" />
           </Transition.Child>
         </Dialog>
       </Transition>
