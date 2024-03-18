@@ -12,7 +12,13 @@ interface carDetailsProps {
 }
 
 const CardDetails = ({ isOpen, closeModal, car }: carDetailsProps) => {
-  return <div></div>
+  return (
+    <>
+      <Transition appear show={isOpen} as={Fragment}>
+        <Dialog as="div" className="relative"></Dialog>
+      </Transition>
+    </>
+  )
 }
 
 export default CardDetails
