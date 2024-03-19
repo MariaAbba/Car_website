@@ -105,9 +105,16 @@ const CardDetails = ({ isOpen, closeModal, car }: carDetailsProps) => {
 
                     <div className="mt-3 flex flex-wrap gap-4">
                       {Object.entries(car).map(([key, value]) => (
-                        <div className='flex justify-between gap-5 text-right w-full' key={key}>
-                          <h4 className='text-gray capitalize'>{key.split('_').join(' ')}</h4>
-                          <p className='text-black-100 font-semibold'>{value}</p>
+                        <div
+                          className="flex justify-between gap-5 text-right w-full"
+                          key={key}
+                        >
+                          <h4 className="text-gray capitalize">
+                            {key.split('_').join(' ')}
+                          </h4>
+                          <p className="text-black-100 font-semibold">
+                            {value}
+                          </p>
                         </div>
                       ))}
                     </div>
