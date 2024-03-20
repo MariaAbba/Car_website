@@ -45,7 +45,3 @@ export const generateCarImageUrl = (car: CarProps, angle?: string) => {
   return `${url}`
 }
 
-export interface FilterProps {
-  
-
-}
