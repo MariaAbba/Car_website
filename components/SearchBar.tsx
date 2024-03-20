@@ -22,7 +22,9 @@ const SearchBar = () => {
   const [manufacturer, setManufacturer] = React.useState('')
   const [model, setModel] = React.useState('')
 
-  const handleSearch = () => {}
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+  }
   return (
     <form className="searchbar" onSubmit={handleSearch}>
       <div className="searchbar__item">
