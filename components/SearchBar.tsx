@@ -18,6 +18,8 @@ const SearchButton = ({otherClasses} : {otherClasses: string}) => {
 
 const SearchBar = () => {
   const [manufacturer, setManufacturer] = React.useState('')
+const [model, setModel] = React.useState('')
+
   const handleSearch = () => {}
   return (
     <form className="searchbar" onSubmit={handleSearch}>
@@ -28,6 +30,20 @@ const SearchBar = () => {
         />
 
         <SearchButton otherClasses="sm:hidden" />
+      </div>
+      <div className="searchbar__item">
+        <Image
+          src="/model-icon.svg"
+          alt="car model"
+          width={25}
+          height={25}
+          className="absolute w-[20px] h-[20px] ml-4"
+        />
+         <input
+         type='type'
+         name='model'
+         value={model}
+         />
       </div>
     </form>
   )
