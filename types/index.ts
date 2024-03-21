@@ -42,9 +42,9 @@ export interface OptionProps {
 }
 
 export interface CustomFilterProps {
-  title: string
-  options: OptionProps[]
-  setFilter: React.Dispatch<React.SetStateAction<string>>
+  title: string,
+  options: OptionProps[],
+
 }
 export interface ShowMoreProps {
   pageNumber: number,
