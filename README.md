@@ -4,6 +4,7 @@
 
 
 <div align="center">
+<img width="685" alt="Screenshot 2024-03-24 113413" src="https://github.com/MariaAbba/Car_website/assets/99909488/0ff6455e-0cff-43f6-bb1a-beb4bd26c4fc">
 
 
 </div>
